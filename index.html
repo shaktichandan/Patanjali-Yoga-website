@@ -4,8 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .bl{
+            border: 3px solid black;
+            background-color: rgb(94, 215, 78);
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 300;
+            box-shadow: 2px midnightblue;
+        }
+        body{
+            background-color: rgb(204, 222, 130);
+        }
+        button{
+background-color: rgb(182, 116, 233);
+border-radius: 15px;
+padding: 7px;
+width: 60px;
+
+margin: 0px;
+/* text-decoration: none; */
+ }
+        .bt:hover{
+           background-color: rgb(227, 185, 227);
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: yellowgreen;
+            background-color: transparent;
+        }
+        a:active{
+            color: rgb(13, 204, 86);
+        }
+        a:visited{
+            color: rgb(15, 13, 13);
+        }
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+            margin: 50px;
+            /* width: 200px; */
+        }
+        tr :hover{
+            background-color: springgreen;
+        }
+        img{
+            margin-left: 400px;
+        }
+        .sp{
+            
+            margin: 100px 100px;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .fle{
+            display: flex;
+            background-color: slateblue;
+            height: 300px;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+        .fle>div{
+            background-color: aliceblue;
+            width: 100px;
+            margin: 20px;
+            height: 75px;
+            /* line-height: 75px; */
+            text-align: center;
+            
+            font-size: 30px;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>hello</h1>
+    <h2>Good Morning !</h2>
+    <blockquote class="bl">A Yoga asana is a certain posture that can take one to a higher dimension or higher perception of life.Contrary to popular belief, Yoga postures or asanas are not just about stretching and bending the body. In Sadhguru’s words, “Yogasanas are not exercises. They are very subtle processes of manipulating your energy in a certain direction. It needs to be done with a certain level of awareness. There are various levels of doing asanas. You can practice asanas just physically, or more deeply, being aware of the breath, sensations, reverberations, being aware of the nadis, or with appropriate mantras. You can even do asanas without moving a limb.”</blockquote>
+    <p>For Yoga class click here :</p>
+    <blockquote>
+    <button class="bt" onclick="alrt"><a href="https://isha.sadhguru.org/yoga/">isha</a></button>
+</blockquote>
+    <h2>                                NUTRITION FOR MENS GIVEN IN THE BELOW TABLE</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Nutrition name</th>
+            <th>Price</th>
+            <th colspan="2">Discount type</th>
+        </tr>
+        <tr>
+            <td>shakti</td>
+            <td>apple</td>
+            <td>100</td>
+            <td>100%</td>
+            <td>_</td>
+        </tr>
+        <tr>
+            <td>shami</td>
+            <td>kele</td>
+            <td>200</td>
+            <td>_</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <td>Rohini</td>
+            <td>Mango</td>
+            <td>100</td>
+            <td>50%</td>
+            <td>_</td>
+        </tr>
+        <tr>
+            <td colspan="2">shakti</td>
+            <td>105</td>
+            <td>_</td>
+            <td>100%</td>
+            <!-- <td>_</td> -->
+        </tr>
+    </table>
+    <img src="yogapic.jpeg" width="700px" height="400px" alt="error in loading image">
+    <div class="sp">Are you wondering how to start yoga? You've come to the right place! If you practice yoga, you can experience a profound sense of harmony both within yourself and the world around you. Before you get into it, though, it's important to set the right kind of atmosphere both inside and outside. Here are 5 pointers to keep in mind to optimize your yoga practice:</div>
+    <div class="fle">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>0</div>
+
+    </div>
 </body>
 </html>
