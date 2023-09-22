@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       p{
+        width: 60%;
+        border: 2px solid black;
+       } 
+       @media  screen and (max-width:900px) {
+        p{
+            width: 90%;
+            background-color: aqua;
+        }
+       }
+       @media screen and (max-width:600px){
+        p{
+            width: 100%;
+            background-color: chartreuse;
+        }
+       }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus voluptates quasi ab quis odit dolores magnam et, repellat non alias eaque rerum eligendi nemo provident facere repudiandae ratione sapiente. Nihil natus dignissimos exercitationem et quae quo maxime inventore quas blanditiis modi obcaecati iure, eligendi soluta expedita molestiae eius odio, at adipisci. Nihil sit aliquam, sequi dolorum saepe ipsum at ex itaque. Optio, molestias amet. Architecto excepturi, velit vitae praesentium aliquid temporibus nam in aspernatur doloribus ad quibusdam ipsa nulla omnis cumque deleniti delectus vel magnam? Suscipit at reiciendis facere nesciunt modi. Consectetur accusamus rerum delectus molestiae necessitatibus? Placeat dignissimos repellat optio! Tenetur dolor laudantium neque omnis recusandae nobis soluta ullam et eligendi autem molestiae dolorum asperiores sit, aliquid ratione sed qui debitis nesciunt cupiditate culpa. Quibusdam quos repudiandae quod eum accusantium dolorum excepturi neque ipsa ullam nesciunt incidunt quas molestiae fuga corrupti obcaecati ab, vel cupiditate sapiente maxime eligendi fugit?</p>
+    <button id="btn">sumbit</button>
+    <script>
+        var hello =document.getElementById('btn');
+        hello.addEventListener('click',function(){
+            alert('hello');
+        })
+    </script>
+</body>
+</html>

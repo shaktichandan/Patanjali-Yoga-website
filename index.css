@@ -1,0 +1,144 @@
+
+        .bl{
+            border: 3px solid black;
+            background-color: rgb(94, 215, 78);
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 300;
+            box-shadow: 2px midnightblue;
+        }
+        body{
+            background-color: rgb(204, 222, 130);
+        }
+        button{
+            background-color: rgb(182, 116, 233);
+            border-radius: 15px;
+            padding: 7px;
+            width: 60px;
+
+            margin: 0px;
+
+ }
+        .bt:hover{
+           background-color: rgb(227, 185, 227);
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: yellowgreen;
+            background-color: transparent;
+        }
+        a:active{
+            color: rgb(13, 204, 86);
+        }
+        a:visited{
+            color: rgb(15, 13, 13);
+        }
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+            margin: 50px;
+            /* width: 200px; */
+        }
+        table{
+            margin: auto;
+        }
+        tr :hover{
+            background-color: springgreen;
+        }
+        img{
+            margin-left: 400px;
+        }
+        .sp{
+            
+            margin: 100px 100px;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .fle{
+            display: flex;
+            background-color: slateblue;
+            height: 300px;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+        .fle>div{
+            background-color: aliceblue;
+            width: 100px;
+            margin: 20px;
+            height: 100px;
+            /* line-height: 75px; */
+            text-align: center;
+            border-radius: 20px;
+            
+            font-size: 30px;
+            /* animation-name: shak;
+            animation-duration: 30s; */
+            animation: shak 6s infinite;
+            /* transform: rotateX(360deg); */
+        }
+        @keyframes shak{
+            0%{background-color: aqua; left: 0;top: 0;}
+            25%  {background-color:rgb(186, 28, 173); left:200px; top:0px;}
+            50%  {background-color:rgb(96, 96, 171); left:200px; top:200px;}
+            75%  {background-color:rgb(78, 216, 78); left:0px; top:200px;}
+            100% {background-color:rgb(239, 244, 99); left:0px; top:0px;}
+          }
+        
+       .box {
+           
+            list-style-type: none;
+            width: 82px;
+            margin-top: 10 px;
+            padding: 0 px;
+            
+            float: left;
+            border-radius: 10px;
+        }
+        .box a{
+            border: 2px solid black;
+            border-radius: 10px;
+            display: block;
+            width: 50px;
+            text-decoration: none;
+            padding: 8px 16px;
+            text-align: center;
+            background-color: rgb(146, 151, 151);
+            margin: 5px;
+            
+        }
+         .box a:hover{
+            background-color: rgb(236, 240, 239);
+            color: black;
+            /* width: auto; */
+        }
+         .ani{
+            /* margin-left: 15px; */
+            /* float: right; */
+            margin-top: 20px;
+            width: 30%;
+            padding-left: 220px;
+            margin-left: 15px;
+            margin-right: 100px;
+            margin-bottom: 19px;
+            border-radius: 55px;
+            position: relative;
+            border: 3px solid black;
+            /* background-color:rgb(9, 112, 13) ; */
+            /* animation-name: chan ;
+            animation-duration: 3s infinite; */
+            animation-timing-function: linear;
+            animation: chan 5s infinite;
+            
+        }
+       
+        
+        @keyframes chan{
+            from{left: 0px;}
+            to {left: 700px;}
+            from {background-color: rgb(122, 243, 106);}
+  to {background-color: rgb(151, 55, 156);}
+        }
